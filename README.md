@@ -1,12 +1,102 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Osumare Frontend Test
 
-Currently, two official plugins are available:
+A responsive and accessible single-page application (SPA) built with React.js, designed to showcase frontend development skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Responsive Design**: Optimized for mobile, tablet, and desktop screens.
+- **Component-Based Architecture**: Modular and reusable React components.
+- **State Management**: Efficient state handling using React Hooks.
+- **Form Handling**: User-friendly forms with validation.
+- **Styling**: Styled using CSS Modules for scoped and maintainable styles.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```
+OsumareFrontendTest/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── App.js
+│   ├── index.js
+│   └── styles/
+├── .gitignore
+├── package.json
+├── README.md
+└── yarn.lock / package-lock.json
+```
+
+## 🛠️ Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Shlokmonster/OsumareFrontendTest.git
+   cd OsumareFrontendTest
+   ```
+
+2. **Install dependencies:**
+
+   Using npm:
+
+   ```bash
+   npm install
+   ```
+
+   Or using yarn:
+
+   ```bash
+   yarn install
+   ```
+
+3. **Start the development server:**
+
+   Using npm:
+
+   ```bash
+   npm start
+   ```
+
+   Or using yarn:
+
+   ```bash
+   yarn start
+   ```
+
+   The application will run at `http://localhost:3000`.
+
+## 📦 Build
+
+To create a production build:
+
+Using npm:
+
+```bash
+npm run build
+```
+
+Or using yarn:
+
+```bash
+yarn build
+```
+
+The optimized build will be in the `build/` directory.
+
+## 🔧 Technologies Used
+
+- [React.js](https://reactjs.org/)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 👤 Author
+
+- **Shlok** - [GitHub](https://github.com/Shlokmonster)
